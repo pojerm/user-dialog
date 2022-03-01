@@ -66,15 +66,31 @@ body {
 
 .user-dialog {
   background: #e4e4e4;
-  width: 80rem;
-  height: 60rem;
+  width: 45%;
+  height: 40%;
   border-radius: 1.2rem;
   border: 2px solid black;
   box-shadow: 0px 0px 35px 10px #161616;
 }
 
 .user-dialog__text {
-  font-size: 4rem;
+  font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 35%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
