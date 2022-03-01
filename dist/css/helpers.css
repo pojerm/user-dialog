@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=helpers.css.map */
