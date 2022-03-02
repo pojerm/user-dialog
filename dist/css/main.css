@@ -52,10 +52,6 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  text-decoration: none;
-}
-
 body {
   background-color: #484b61;
   margin: 0;
@@ -70,11 +66,13 @@ body {
   height: 40%;
   border-radius: 1.2rem;
   border: 2px solid black;
-  box-shadow: 0px 0px 35px 10px #161616;
+  border-radius: 37px;
+  box-shadow: 17px 17px 38px #141414, -17px -17px 38px #1b1b1b;
 }
 
 .user-dialog__text {
   font-size: 3.5rem;
+  margin-bottom: 5rem;
 }
 
 @media only screen and (max-width: 1400px) {
