@@ -96,6 +96,10 @@ body {
   html {
     font-size: 25%;
   }
+
+  .user-dialog {
+    height: 25%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
